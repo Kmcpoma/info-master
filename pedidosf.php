@@ -2,7 +2,7 @@
 session_start();
 require "conexion.php";
 
-//asdasdlasd
+//asdasdlasdsdas
 if (!isset($_SESSION['idUSUARIO'])) {
     header("location: index.php");
 }
