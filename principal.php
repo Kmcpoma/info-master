@@ -1,5 +1,5 @@
 <?php
-//algo
+//algo  
     session_start();
     require "conexion.php";
 
