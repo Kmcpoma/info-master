@@ -125,6 +125,6 @@ if (!$result || mysqli_num_rows($result) == 0) {
             ciudadInput.required = false;
             telefonoInput.required = false;
         }
-    }
+    } // listo
 </script>
 <?php include("template/pie.php"); ?>

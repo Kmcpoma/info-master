@@ -2,7 +2,6 @@
 session_start();
 require "conexion.php";
 
-//asdasdlasdsdas
 if (!isset($_SESSION['idUSUARIO'])) {
     header("location: index.php");
 }

@@ -41,5 +41,5 @@ if (mysqli_num_rows($result) > 0) {
     $query = "INSERT INTO carrito (id_usuario, id_producto, cantidad, estado, cerrado) VALUES ($id_usuario, $id_producto, $cantidad, 'pendiente', 0)";
     mysqli_query($mysqli, $query);
     echo json_encode(['success' => true, 'message' => 'Carrito creado y producto añadido.']);
-}
+} // listo
 ?>

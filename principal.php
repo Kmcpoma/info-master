@@ -1,9 +1,7 @@
 <?php
-//algo  
+
     session_start();
     require "conexion.php";
-//qweqeasas
-//sdasda
 
     if(!isset($_SESSION['tipo_idtipo'])){//indica que el usuario inicio secion
         header("location: index.php");
